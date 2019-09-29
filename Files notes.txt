@@ -1,0 +1,13 @@
+files
+
+i. read (input)
+ii. write (output and output append)
+
+1) read - input - get the input from a file - redirect_input(yes/no or "filename")
+2) write - output - erases the previous data and retun values to a file - redirect_output(Yes/no or "filename")
+	--> redirect_output(Yes) for opening the file and redirect_output(No) for closing the file
+	--> We must close the file while we are giving an outputs to a file afrer the completion of writing
+3)append - output - append - return the values to the file one by one - redirect_output_append(yes/no or "filename")
+	--> redirect_output_append(Yes) for opening the file and redirect_output_append(No) for closing the file
+	--> We must close the file while we are giving an outputs to a file afrer the completion of writing
+
